@@ -1,0 +1,41 @@
+.contact h2{
+    text-align: center;
+    margin-top: 5%;
+    color: var(--primary-color);
+}
+.contact{
+    margin-top: 8%;
+    margin-bottom: 3%;
+    width: 32%;
+    margin-left: 35%;
+    height: 353px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 37%);
+    border-radius: 34px;
+}
+.contact-input{
+    width: 67%;
+    height: 35px;
+    font-weight: 500;
+    color: var(--heading-color);
+}
+.contact textarea{
+    height: 77px;
+}
+.contact .register-btn{
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 600px) {
+  .contact{
+    width: 73%;
+    margin-left: 17%;
+  }
+  .contact .register-btn{
+    margin-left: 0px;
+    margin-bottom: 2%;
+  }
+}

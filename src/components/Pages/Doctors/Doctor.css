@@ -1,0 +1,18 @@
+.doc-card h2{
+    font-size: 25px;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 2%;
+}
+.doc-card{
+    margin-top: 5%;
+}
+.doc-card p{
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.doc-card .title{
+    text-align: center;
+}
